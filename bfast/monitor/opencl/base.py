@@ -85,8 +85,8 @@ class BFASTMonitorOpenCL(BFASTMonitorBase):
                  ):
         k_valid = list(range(3, 11))
 
-        if k not in k_valid:
-            raise Exception("Current implementation can only handle the following values for k: {}".format(k_valid))
+#        if k not in k_valid:
+#            raise Exception("Current implementation can only handle the following values for k: {}".format(k_valid))
 
         super().__init__(start_monitor,
                          freq,
